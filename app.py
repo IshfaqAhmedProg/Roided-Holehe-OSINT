@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[48]:
+# In[ ]:
 
 
 import trio
@@ -251,11 +251,11 @@ trio.run(main)
 # In[ ]:
 
 
-get_ipython().system('jupyter nbconvert --to script app.ipynb')
 
 
-# In[47]:
+
+# In[51]:
 
 
-get_ipython().system('pyinstaller app.py --collect-all pyfiglet --collect-data grapheme')
+
 

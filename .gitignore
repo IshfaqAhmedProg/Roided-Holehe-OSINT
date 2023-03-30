@@ -1,6 +1,5 @@
 .venv
 .vscode
 build
-dist
 input.xlsx
 ExceptionLogs.log
