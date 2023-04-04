@@ -5,6 +5,8 @@ This is Roided Holehe OSINT. A python program that runs on top of Holehe OSINT. 
 Author: **Ishfaq Ahmed**  
 Based On: **Holehe OSINT by [megadose](https://github.com/megadose)**
 
+---
+
 ### **How to use**:
 
 1.  Run app.exe in 'dist/app'.
@@ -12,8 +14,6 @@ Based On: **Holehe OSINT by [megadose](https://github.com/megadose)**
 3.  Only the valid emails from the column will be processed so you don't need to check for invalid values.
 4.  Once the program ends, the file will be saved to a folder "RoidedHolehe" in your documents folder.
 5.  If the results have too many rate_limit as 'true' then change your ip address and re-run the program with only rate_limit='true'.
-
----
 
 ### **Adding Custom modules**
 
