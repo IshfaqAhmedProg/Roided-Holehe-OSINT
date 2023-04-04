@@ -32,7 +32,6 @@ POST https://app.pipedrive.com/signup/start
 > > Accept: application/json  
 > > Accept-Language: en-US,en;q=0.5  
 > > Accept-Encoding: gzip, deflate, br  
-> > Referer: https://www.pipedrive.com/en/log-out-successful  
 > > Content-Type: application/json  
 > > Content-Length: 167  
 > > Origin: https://www.pipedrive.com  
@@ -47,7 +46,16 @@ POST https://app.pipedrive.com/signup/start
 
 **Request object for user signup**
 
-`{"email":"**email**","language":"en","country_code":"nl","selectedTier":null,"packages":[],"optimizelyEndUserId":null,"consentGiven":true,"marketingConsent":true}`
+> > {  
+> > "email":"**email**",  
+> > "language":"en",  
+> > "country_code":"nl",  
+> > "selectedTier":null,  
+> > "packages":[],  
+> > "optimizelyEndUserId":null,  
+> > "consentGiven":true,  
+> > "marketingConsent":true  
+> > }
 
 **Response object if user exist:**
 
